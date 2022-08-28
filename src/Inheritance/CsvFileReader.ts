@@ -1,5 +1,5 @@
 import fs from "fs";
-import {MatchResult} from "./MatchResult";
+import {MatchResult} from "../MatchResult";
 
 // <Type> is for type generics
 export abstract class CsvFileReader<T> {
